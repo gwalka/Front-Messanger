@@ -1,16 +1,22 @@
-# flutter_application_2
+### 2. Запуск Frontend (Flutter)
+```bash
+git clone https://github.com/gwalka/Front-Messanger.git
+```
+```bash
+cd Front-Messanger
+```
+```bash
+flutter pub get
+```
 
-A new Flutter project.
+```bash
+flutter run
+```
+Выбираем [2]: Chrome (chrome)
+Можно протестировать функционал.
 
-## Getting Started
+## Валидация данных при регистрации:
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-   **Email:** Только валидный email формата `example@gmail.com`
+-   **Username:** Только буквы и цифры (например, `Username123`)
+-   **Password:** Минимум 6 символов, наличие заглавной буквы, строчной буквы и спецсимвола (например, `Password1!`)
